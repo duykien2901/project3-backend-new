@@ -1,0 +1,5 @@
+ALTER TABLE groups 
+ADD COLUMN name varchar(100) not null,
+ADD COLUMN description varchar(255),
+ADD COLUMN access_level int not null,
+ADD COLUMN permission int not null
